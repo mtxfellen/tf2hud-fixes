@@ -97,7 +97,7 @@
 		"xpos"			"35"
 		"ypos"			"83"
 		"wide"			"530"
-		"tall"			"140"
+		"tall"			"f0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
