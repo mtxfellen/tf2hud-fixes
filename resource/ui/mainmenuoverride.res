@@ -249,14 +249,14 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
+		//"xpos"			"c-250"
+		//"ypos"			"-80"
+		//"zpos"			"-99"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		//"scaleImage"	"1"
 	}
 
 	"RankModelPanel"
