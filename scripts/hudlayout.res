@@ -352,7 +352,7 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"4"
+		"zpos"		"5"
 		"wide"		"f0"
 		"tall"		"480"
 		
@@ -365,7 +365,7 @@
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"0"
 		"ypos"				"r100"
-		"zpos"				"5"
+		"zpos"				"4"
 		"wide"				"100"
 		"tall"				"100"
 		"xpos_minmode"		"135"
