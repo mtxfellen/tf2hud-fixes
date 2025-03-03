@@ -55,8 +55,8 @@
 - Added navigation shortcut keys (A,D,Q) for multiple menu screens.
 - Added player icons to the voice chat.
 - Enabled the ability to manipulate the player model on the Loadout screen.
-- Expanded the match HUD player list to accomodate large teams.
-- High quaility item images, loading screen background and game logo.
+- Expanded the match HUD player list to accommodate large teams.
+- High quality item images, loading screen background and game logo.
 - Increased font size for engine panels; console, server browser etc.
    
 ### Acknowledgements
