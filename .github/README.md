@@ -8,7 +8,6 @@
 ---
 
 ### Notables Fixes
-- Added back the passive attributes text to the Loadout screen.
 - Added minmode UI for Capture the Flag, Player Destruction, PASS Time and Arena Hybrid game-modes.
 - Added missing font definitions to the client scheme.
 - Fixed Backpack screen header not displaying correctly when applying a tool.
@@ -49,6 +48,7 @@
 
 ### Quality of Life Changes
 - Added a menu for toggling the crosshair, speedometer, damage numbers, transparent viewmodels and more.
+- Added back the passive attributes text to the Loadout screen.
 - Added buttons for changing team colors on the Loadout screen.
 - Added casual and competitive stats to the main menu.
 - Added damage numbers near the player model.
