@@ -71,7 +71,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type"	"1"
 			}
 			
 			"use_item_sounds"	"1"
@@ -188,7 +187,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"
 		"xpos"			"c-305"
-		"ypos"			"320"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -205,8 +204,8 @@
 		"fieldName"		"ItemSlotLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"east"
-		"xpos"			"c-190"
+		"textAlignment"	"west"
+		"xpos"			"c-55"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"375"
@@ -285,7 +284,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
 		"xpos"			"c100"
-		"ypos"			"331"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
@@ -434,29 +433,5 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	}
-
-	"PrevPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"PrevPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&A"
-		"Command"			"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"NextPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"NextPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&D"
-		"Command"			"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }
