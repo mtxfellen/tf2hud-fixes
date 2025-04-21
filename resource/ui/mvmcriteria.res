@@ -457,92 +457,18 @@
 		}
 	}
 
-	"MvMPracticeGroupBox"
+	MvMPracticeGroupBox
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MvMPracticeGroupBox"
-		"xpos"		"0"
-		"ypos"		"240"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"120"
-		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		wide 0
+		tall 0
+		visible 0
 
-		"NavToRelay"	"MannUpNowButton"
-		"NavUp"			"MvMEconItemsGroupBox"
-		"NavDown"		"<<BackButton"
-		"NavRight"		"PartyActiveGroupBox"
-
-		"NoMannUpImage"
+		MannUpNowButton
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"NoMannUpImage"
-			"xpos"			"250"
-			"ypos"			"6"
-			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_loot_image"
-			"scaleImage"	"1"
-		}
-
-		"NoMannUpTitleLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"NoMannUpTitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_MvM_NoMannUpTitle"
-			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"30"
-		}
-
-		"NoMannUpDescriptionLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"NoMannUpDescriptionLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_NoMannUpDescription"
-			"textAlignment"	"west"
-			"wrap"			"1"
-			"xpos"			"10"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"50"
-		}
-
-		"MannUpNowButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MannUpNowButton"
-			"xpos"			"10"
-			"ypos"			"85"
-			"zpos"			"2"
-			"wide"			"120"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_MannUpNow"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"command" "mann_up_now"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			ControlName "CExButton" // Game has an assert for this.
+			wide 0
+			tall 0
+			visible 0
 		}
 	}
 
@@ -554,7 +480,7 @@
 		"ypos"		"10"
 		"zpos"		"-1"
 		"wide"		"400"
-		"tall"		"225"
+		"tall"		"365"
 
 		"NavToRelay"	"ChallengeListGroupBox"
 		"NavRight"		"MvMTourOfDutyGroupBox"
@@ -628,7 +554,7 @@
 			"ypos"			"28"
 			"zpos"			"-1"
 			"wide"			"400"
-			"tall"			"197"
+			"tall"			"323"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
@@ -644,7 +570,7 @@
 				"ypos"			"0"
 				"zpos"			"200"
 				"wide"			"400"
-				"tall"			"225"
+				"tall"			"350"
 				"visible"		"0"
 				"bgcolor_override"	"128 128 128 128"
 			}
@@ -658,7 +584,7 @@
 				"ypos"			"5"
 				"zpos"			"0"
 				"wide"			"330"
-				"tall"			"192"
+				"tall"			"317"
 				"linespacing"	"12"
 			}
 		}
