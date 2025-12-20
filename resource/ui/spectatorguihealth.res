@@ -1,2 +1,2 @@
-#base "../../../../cfg/hud_specguihealth.txt"
-#base "#customizations/targetid/spectatorguihealth_base.res"
+#base   "../../../../cfg/hud-fixes/hud_specguihealth.txt"
+#base	"../../_tf2hud/resource/ui/spectatorguihealth.res"
